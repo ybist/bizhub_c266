@@ -61,7 +61,6 @@ print('\n',"C226打印机--打印及复印计数",'\n',time.strftime('%Y年%m月
 black_count = int(str(list[104]))
 color_count = int(str(list[105]))
 
-
 if (black_count >= (black_limit-500)) or ((current_date.day > 1) and (current_date.day < 5)):
     black_command = 'msg /server:192.168.2.103 * "c226打印机本月黑色上限' + str(black_limit) + ',已使用' + str(list[104]) + '",本月剩余"' + str(black_limit-black_count)
     os.system(black_command)
