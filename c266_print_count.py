@@ -9,6 +9,7 @@ from selenium.webdriver.common.keys import Keys
 import datetime,time,locale,os
 from lxml import etree
 
+#参考 https://www.jianshu.com/p/1531e12f8852
 #览器驱动,放到python目录
 #chrome
 #https://chromedriver.storage.googleapis.com/index.html
