@@ -1,4 +1,5 @@
 #C266打印机计数
+# Lisence: MIT
 # Author: 2997
 from selenium import webdriver
 from selenium.webdriver.common.by import By
