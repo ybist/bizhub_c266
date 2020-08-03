@@ -43,12 +43,12 @@ fist_date = datetime.date(2020,7,6)
 current_date = datetime.date.today()
 black_fist_count = 37574
 color_fist_count = 5181
-black_mum = 5000
-color_mum = 300
+black_num = 5000
+color_num = 300
 delta = current_date-fist_date
 count_cycle = delta.days // 30 + 1
-black_limit = black_fist_count + black_mum * count_cycle
-color_limit = color_fist_count + color_mum * count_cycle
+black_limit = black_fist_count + black_num * count_cycle
+color_limit = color_fist_count + color_num * count_cycle
 print(fist_date)
 print(current_date)
 print(delta.days)
